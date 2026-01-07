@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Selectors in css</h1>
+    </header>
+    <main>
+      <article id="first">
+        <h2>Element selector</h2>
+        <p>
+          An element selector (also known as a type selector or tag name
+          selector) is a <span class="highlight">CSS selector</span> used to select and apply styles to all
+          HTML elements that have a specific element name.
+        </p>
+      </article>
+      <article id="second" class="purple">
+        <h2 class="highlight">Class selector</h2>
+        <p>
+          Thinking A class selector is a CSS rule that targets elements using a
+          period (.) followed by a specific class name. Unlike IDs, classes are
+          reusable and can be applied to multiple elements across a single
+          webpage. They allow for consistent styling of grouped items and can
+          even be combined on a single element for modular design. It is the
+          most common method for applying styles in modern web development.
+        </p>
+      </article>
+      <article id="third" class="purple">
+        <h2>ID selector</h2>
+        <p class="highlight">
+          An ID selector is a CSS rule that targets a specific element using a
+          hash symbol (#) followed by a unique identifier. Unlike classes, an ID
+          must be unique to a single element on a webpage, making it ideal for
+          distinct sections like headers or footers. It carries higher
+          specificity than class selectors, meaning its styles will override
+          conflicting class-based rules. Because of this precision, it is also
+          the most common method for selecting elements in JavaScript
+        </p>
+      </article>
+    </main>
+  </body>
+</html>

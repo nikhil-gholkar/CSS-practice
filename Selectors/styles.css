@@ -1,0 +1,44 @@
+/* universal selector */
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* element selector */
+body {
+  font-size: 24px;
+}
+
+/* id selector */
+#first {
+  color: green;
+}
+
+/* class selector */
+.purple {
+  color: purple;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.highlight {
+  background-color: yellowgreen;
+  font-weight: bolder;
+}
+
+/* gouping selector */
+#second, #third{
+    color: rgb(2, 1, 0);
+}
+
+/* nested selector */
+
+#first>p{
+    color: cadetblue;
+}
+
+/* pseudo selector */
+p:hover{
+    background-color: aqua;
+}
+
+/* specificity
+id > class > element =ICE*/
