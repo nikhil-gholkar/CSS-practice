@@ -1,0 +1,37 @@
+body{
+   color: black;
+   background-color:beige;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    background-color: wheat;
+}
+.first{
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: hsl(180, 79%, 20%);
+}
+.second{
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: hsla(271, 76%, 53%, 0.518);
+}
+.third{
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: rgb(112, 197, 27);
+}
+.fourth{
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: #dc143c;
+}
+/* HSL=hue saturation lightness */
+/* HSLA= a for alpha 0 to 1 */
+/* RGB red green blue -0 to 255 */
+/* hex code have hexadecimal number */
