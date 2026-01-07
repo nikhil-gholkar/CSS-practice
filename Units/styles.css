@@ -1,0 +1,27 @@
+main{
+    border: 5px dotted blueviolet;
+    /* width: 50%; */
+width: 100vw;
+}
+
+header{
+    font-size: 2em;
+}
+section{
+    border: 5px dotted greenyellow;
+    width: 50vw;
+    /* height: 100vh; */
+}
+
+
+
+/* % is relative to parent*/
+/* vw is view width 100vw is 100% of screen 
+50vw is 50% of the screen */
+/* px vh vw is absolute not relative not depend on parent */
+/* 1em=16px */
+/* em is relative to parent always use for font size */
+
+/* rem= root em i.e. HTML(root) */
+/* rem is relative to root */
+/* use rem to avoid size inheritence of em */
