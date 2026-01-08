@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+
+    height: 400px;
+    border: 2px solid red;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    flex-flow: wrap row;
+    gap: 5px;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+
+.box{
+    border: 2px solid green;
+    padding:5px;
+    
+    width: 100px;
+}
+
+
+/* 
+flex container prooperties
+flex-direction = row row reversed colunm colunm reversed 
+flex wrap= wrap no wrap wrap reversed
+flex flow = wrap row
+justify-content= for main axis i.e. horizontal axis for row
+(space around , space between,flex-star ,flex-end,center)
+align-items= for cross axis i.e. vertical axis for row
+(default value = stretch, flex-start,flex-end)
+
+align-content= gap between content
+
+*/
+
+/* flex child items
+
+order = by default 0 , bigger number sets last 
+flex-grow= takes remaining space
+flex-shrink= by default value 1 shrinks as number increases 
+flex-basis= define initial width in direction of main axis 
+flex : flex-grow flex-shrink flex-basis (short form)
+align-self = child align itself 
+
+
+*/
