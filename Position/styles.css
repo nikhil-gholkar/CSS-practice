@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(222, 184, 137, 0.589);
+  text-align: center;
+  margin: 50px;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    text-align: end;
+}
+.nav ul{
+    position: relative;
+    top: 25%;
+    right: 5%;
+}
+.nav li{
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    
+    
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+.red {
+  background-color: rgba(255, 0, 0, 0.512);
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  left: 20px;
+}
+
+.green {
+  background-color: rgba(1, 77, 1, 0.611);
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.blue {
+  height: 50px;
+  width: 50px;
+
+  border-radius: 100%;
+  background-color: rgba(0, 0, 255, 0.627);
+  display: inline-block;
+  position: fixed;
+  top: 70%;
+  left: 80%;
+  
+}
+
+.blue h1{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    color: white;
+    cursor:default;
+}
+.purple{
+    background-color: rgba(128, 0, 128, 0.738);
+    position:sticky;
+    top: 15px;
+}
+
+.scroll {
+  height: 300vh;
+}
+
+/* position
+Static- by default it is
+relative - relative to parent (top,left,bottom,right)
+absolute - is relative the nearest parent which is relative else to root i.e. HTML
+fixed- fixes to the position and relative to html
+sticky- it fixes relative to parent
+zindex- greater z index towards the user(overlay on other)
+
+*/
