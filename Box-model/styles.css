@@ -1,0 +1,14 @@
+.container{
+    height: 200px;
+    width: 200px;
+    /* border-box keep size fix including padding & margin */
+    box-sizing: border-box;
+    border: 10px solid black;
+    /* clockwise- top right left bottom */
+    padding: 10px 20px 10px 20px; 
+    /* clockwise 20px top bottom 30px right left */
+    margin: 20px 30px;
+}
+
+/* box= content -> padding -> border -> margin */
+/*  */
