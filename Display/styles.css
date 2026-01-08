@@ -1,0 +1,42 @@
+*{
+    /* border: 2px dotted red; */
+    padding: 0px;
+    margin: 0px;
+}
+/* p is block element it takes full width in line */
+/* span is a inline element it takes only required width */
+p{
+   
+    display: inline;
+    color: chocolate;
+}
+ul{
+    text-align: end;
+    padding: 10px;
+    background-color: black;
+    list-style: none;
+    color: white;
+}
+li{
+    display: inline-block;
+    padding: 3px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+li:hover{
+    color: blueviolet;
+}
+
+
+/* block elements= p,headings,div,forms,list */
+/* inline elements= span,images,anchor */
+/* you can not define width and height to inline elements */
+/* you can define to images as images are inline block elements */
+
+/* display properties
+display:block
+display:inline
+display:inline-block
+display:none
+
+*/
