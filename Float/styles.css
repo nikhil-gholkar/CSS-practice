@@ -1,0 +1,59 @@
+
+.container{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    overflow: hidden;
+    display: inline-block;
+}
+.container2{
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid purple;
+    display: inline-block;
+    /* overflow: scroll; */
+    /* to show scrollbar only when neccessary use auto */
+    overflow: auto;
+}
+
+img{
+    float: right;
+}
+.img2{
+float:left;
+}
+
+.p2{
+    clear: left;
+}
+
+
+
+
+
+
+
+/* overflow - fit big content in area
+visible- by default visible overflow content
+hidden - overflow content is hidden 
+scroll
+auto
+
+ */
+
+ /* float 
+ left- will float to left and other content to right 
+ right- float to right
+ none- no float
+ inherit
+ */
+
+ /* clear
+ clears the float 
+ left
+ right
+ both */
+
+
+
