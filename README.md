@@ -1,6 +1,6 @@
 # CSS Practice
 
-> A collection of CSS exercises and examples for practicing CSS fundamentals — from box model to flexbox and everything in between.
+> A collection of CSS exercises and examples for practicing CSS fundamentals from box model to flexbox and everything in between.
 
 ## 📘 About
 
